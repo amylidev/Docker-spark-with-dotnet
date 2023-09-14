@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Docker Big Data Cluster
 
@@ -237,3 +238,7 @@ There are some TODOs to complete:
 [volumes-docs]: https://docs.docker.com/compose/compose-file/compose-file-v3/#volumes
 [connection-refused-docs]: https://cwiki.apache.org/confluence/display/HADOOP2/ConnectionRefused
 [connection-refused-answer]: https://stackoverflow.com/a/42281292/7058363
+=======
+# Docker-spark-with-dotnet
+Repository containing Docker images for creating dotnet programs and clusters Spark on Hadoop Yarn.
+>>>>>>> 3b2674e8148f3c99bf14bf637effea448fba237d
