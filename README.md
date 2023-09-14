@@ -5,11 +5,11 @@ Upgraded project downloaded from https://github.com/jware-solutions/docker-big-d
 
 **Image versions: Ubuntu 22.04, Spark v3.2.4 and Hadoop v3.3.6**
 
-The purpose is to allow programmers to test Spark applications deployed on YARN more easily. 
+The purpose is to allow programmers to test Spark applications deployed on YARN more easily. **It was not designed to be deployed in production environments**.
 
-If you want to use the docker image directly, you can pull the docker image with the link: https://hub.docker.com/r/yichiali/spark-with-dotnet
+If you want to use the docker image to test directly, you can pull the docker image with the link: https://hub.docker.com/r/yichiali/spark-with-dotnet
 
-# Docker Big Data Cluster
+## Docker Big Data Cluster
 
 A ready to go Big Data cluster (Hadoop + Hadoop Streaming + Spark + PySpark) with Docker and Docker Swarm!
 
