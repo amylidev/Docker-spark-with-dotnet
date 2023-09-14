@@ -1,4 +1,13 @@
-<<<<<<< HEAD
+# Docker-spark-with-dotnet
+Repository containing Docker images for creating dotnet programs and clusters Spark on Hadoop Yarn.
+
+Upgraded project downloaded from https://github.com/jware-solutions/docker-big-data-cluster in order to be compatible with new versions of Spark/Hadoop and whether use on **MacOS  Docker** or **Linux**.
+
+**Image versions: Ubuntu 22.04, Spark v3.2.4 and Hadoop v3.3.6**
+
+The purpose is to allow programmers to test Spark applications deployed on YARN more easily. 
+
+If you want to use the docker image directly, you can pull the docker image with the link: https://hub.docker.com/r/yichiali/spark-with-dotnet
 
 # Docker Big Data Cluster
 
@@ -28,7 +37,7 @@ This repository seeks to solve the problem by offering a functional alternative,
 
 ## Features
 
-This repository is inspired by and uses several scripts taken from [Rubenafo's repo][rubenafo-repo] and [Sdesilva26's repo][sdesilva26-repo], however there are several changes introduced; the API is simpler, there is more documentation about usage and some extra features:
+There is more documentation about usage and some extra features:
 
 - ✅ Ready to deploy in a Docker Swarm cluster: all the networking and port configuration issues have been fixed so you can scale your cluster to as many worker nodes as you need.
 - ⚡️ Hadoop, HDFS, Spark, Scala and PySpark ready to use: all the tools are available inside the container globally so you don't have to fight with environment variables and executable paths.
@@ -238,7 +247,4 @@ There are some TODOs to complete:
 [volumes-docs]: https://docs.docker.com/compose/compose-file/compose-file-v3/#volumes
 [connection-refused-docs]: https://cwiki.apache.org/confluence/display/HADOOP2/ConnectionRefused
 [connection-refused-answer]: https://stackoverflow.com/a/42281292/7058363
-=======
-# Docker-spark-with-dotnet
-Repository containing Docker images for creating dotnet programs and clusters Spark on Hadoop Yarn.
->>>>>>> 3b2674e8148f3c99bf14bf637effea448fba237d
+
